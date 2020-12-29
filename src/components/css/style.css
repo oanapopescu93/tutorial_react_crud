@@ -1,0 +1,105 @@
+body{
+	background:black;
+	color:green;
+}
+
+a, a:hover{
+	color:green;
+	text-decoration: none;
+}
+
+:focus {
+    outline: none
+}
+a:focus{
+	outline: none;
+	color:green;
+	text-decoration: none;
+}
+
+.app_link a{
+	padding-right:10px;
+	margin-right:10px;
+	border-right:solid 1px green
+}
+.app_link a:last-child{
+	border-right:solid 0px transparent;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.book_row td{
+	border-bottom: solid 1px green;
+	padding:10px;
+}
+.book_button, .book_button:focus{
+	border:solid 1px green;
+	padding:5px 10px;
+	color:green;
+	background:black;
+	border-radius:5px;
+}
+
+.modal.show{
+	opacity:1;
+}
+.modal-dialog{
+	margin: 0;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, 0%)!important;
+}
+.modal-title{
+	display:inline-block;
+}
+
+.app_link{
+	padding-top:20px;
+}
+
+#contact_info td{
+	padding:5px 10px;
+	border:solid 1px green
+}
+#contact_info tr td:first-child{
+	text-align: right;
+}
+
+.modal-dialog{	
+	color:black;
+}
+.modal-content{
+	background:green;
+}
+.modal-header{
+	border-bottom: 1px solid black;
+}
+.close{
+	text-shadow: none;
+	opacity: 1;
+}
+.modal{
+	padding:0px 15px;
+}
+#modal_submit{
+	color: black;
+    background-color: green;
+    border-color: black;
+}
+.form-control, .form-control:focus{
+	background:black;
+	border:solid 1px black;
+	color:green;
+	box-shadow: none;
+}
+
+@media (max-width: 768px) {
+	#contact_info td{
+		display:block;
+	}
+	#contact_info tr td:first-child{
+		text-align: left;
+	}
+  }
